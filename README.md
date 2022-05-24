@@ -1,5 +1,5 @@
 # Ralipyard
-Python thread-safe wrapper for threading, multiprocessing and async/await style built on Rust's rate limit library [raliguard](https://github.com/deknowny/ralipyard)
+Python thread-safe wrapper for threading and async/await style built on Rust's rate limit library [raliguard](https://github.com/deknowny/ralipyard)
 
 ### Overview
 For example, crate a semaphore that allows only 5 calls per 1 second
