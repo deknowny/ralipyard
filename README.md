@@ -1,10 +1,10 @@
 # Ralipyard
- Python thread-safe rate limit semaphore for threading and async/await style built on Rust's library [raliguard](https://github.com/deknowny/ralipyard)
-
-***
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ralipyard)
 ![PyPI - Implementation](https://img.shields.io/pypi/implementation/ralipyard)
 ![PyPI](https://img.shields.io/pypi/v/ralipyard)
+
+Python thread-safe rate limit semaphore for threading and async/await style built on Rust's library [raliguard](https://github.com/deknowny/ralipyard)
+
 ### Overview
 For example, crate a semaphore that allows only 5 calls per 1 second
 ```python
