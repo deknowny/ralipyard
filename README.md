@@ -59,4 +59,4 @@ python -m pip install https://github.com/deknowny/archive/ralipyard.zip
 ```
 
 ### Documentation
-It's unnecessary because the library has the only 1 class with the only 2 methods, visit [stubs](../ralipyard.pyi) for more information
+It's unnecessary because the library has the only 1 class with the only 2 methods, visit [stubs](./ralipyard.pyi) for more information
