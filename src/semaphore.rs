@@ -39,7 +39,7 @@ impl PySempahore {
             );
         }
 
-        let duration = time::Duration::new(delta_secs as u64, 1000*delta_microseconds as u32);
+        let duration = time::Duration::new(delta_secs as u64, 1000 * delta_microseconds as u32);
         Ok(PySempahore {
             semaphore: sync::Arc::new(
                 sync::Mutex::new(

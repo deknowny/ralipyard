@@ -39,10 +39,10 @@ def test_threading_access():
 
     [thread.start() for thread in threads]
     time.sleep(1.1)
-    assert counter.done == 5
+    assert counter.done == 10
 
     time.sleep(1.1)
-    assert counter.done == 10
+    assert counter.done == 15
 
     [thread.join() for thread in threads]
 
@@ -61,9 +61,9 @@ async def test_asyncio_access():
     ]
 
     await asyncio.sleep(0.6)
-    assert counter.done == 10
+    assert counter.done == 20
 
     await asyncio.sleep(0.6)
-    assert counter.done == 20
+    assert counter.done == 30
 
     await asyncio.gather(*tasks)

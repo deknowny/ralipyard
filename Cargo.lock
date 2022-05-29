@@ -150,9 +150,9 @@ dependencies = [
 
 [[package]]
 name = "raliguard"
-version = "0.1.1"
+version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c4edea9aa802ec3434df87b4fd1364e46b6f47c9f702f51387ecd66074a9e8c"
+checksum = "3537c1264604022db9cb48084594831189f0c3ce85108be51f37b6f7e6405c06"
 
 [[package]]
 name = "ralipyard"
