@@ -4,13 +4,14 @@ build-backend = "maturin"
 
 [project]
 name = "ralipyard"
+version = "0.1.1"
 readme = "README.md"
 requires-python = ">=3.7"
 license = { file = "LICENSE" }
 keywords = ["async", "semaphore", "threading", "rate", "limit"]
 description = "Thread-safe rate limit semaphore for threading and async/await style built on  Rust"
 authors = [
-  {email = "dekno@gmail.com"},
+  {email = "deknowny@gmail.com"},
 ]
 classifiers = [
     "Programming Language :: Rust",
